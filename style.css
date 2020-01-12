@@ -1,6 +1,7 @@
 *{
-	font-family: Roboto;
+	font-family: Inter;
 	font-style: normal;
+	font-weight: normal;
 }
 
 .back{
@@ -72,6 +73,17 @@ h1{
 	margin-right: 50px;
 	border-radius: 3px;
 	padding: 14px 24px 12px 24px;
+	cursor: pointer;
+}
+
+.contact:hover {
+	transform: translateY(-5px);
+	 transition-duration: 0.5s;
+}
+
+.demo:hover {
+	transform: translateY(-5px);
+	 transition-duration: 0.5s;
 }
 
 .demo{
@@ -79,6 +91,7 @@ h1{
 	border: 2px solid #FFFFFF;
 	box-sizing: border-box;
 	border-radius: 3px;
+	cursor: pointer;
 }
 
 .second{
@@ -104,6 +117,7 @@ h2{
 
 .tx{
 	float: left;
+	margin-right: -250px;
 }
 
 .contact2{
@@ -278,6 +292,8 @@ h3{
 	color: #fff;
 	width: 538px;
 	margin-right: 100px;
+	margin-left: -250px;
+	top: 20px;
 }
 
 .fourth_tx{
@@ -298,6 +314,7 @@ h3{
 .fifth_text{
 	width:403px;
 	text-align: left; 
+	margin-right: -450px;
 }
 
 .fifth_strong{
@@ -331,6 +348,7 @@ h3{
 	position: relative;
 	width: 452px;
 	top: 50px;
+	margin-left: -450px;
 }
 
 .sixth_strong{
@@ -379,6 +397,7 @@ h3{
 	position: relative;
 	width: 452px;
 	top: 0px;
+	margin-right: -350px;
 }
 
 .seventh_strong{
@@ -390,7 +409,7 @@ h3{
 .analis{
 	position: relative;
 	bottom: 170px;
-	width: 538px;
+	width: 638px;
 	height: 392px;
 }
 
@@ -407,6 +426,7 @@ h3{
 	position: relative;
 	width: 452px;
 	top: 50px;
+	margin-left: -250px;
 }
 
 .eight_strong{
@@ -545,9 +565,11 @@ h4{
 
 .inf2{
 	display: flex;
-	position: relative;
+	position:relative;
 	top: 1050px;
 	justify-content: flex-end;
+	z-index: 1;
+
 }
 
 .inf{
@@ -624,7 +646,7 @@ h5{
 
 .cont{
 	position: relative;
-	top: 1150px;
+	top: 1200px;
 	display: flex;
 	justify-content: space-around;
 	margin-left: 329px;
@@ -643,6 +665,10 @@ h5{
 	color: #AC9783;
 	top: 10px;
 	margin-bottom: 80px;
+}
+
+.number{
+	top: 3px;
 }
 
 
@@ -678,6 +704,10 @@ h1{
 }
 
 
+.tx{
+	margin-right: 0;
+}
+
 .ipad{
 	position: relative;
 	bottom: 140px;
@@ -686,7 +716,17 @@ h1{
 }
 
 .fourth_text{
-	bottom: 30px;
+	top: -50px;
+	margin-left:  0px;
+}
+
+.fifth_text{
+	margin-right: -0px;
+	margin-left: 20px;
+}
+
+.sixth_text{
+	margin-left: 0; 
 }
 
 .seventh_back{
@@ -696,22 +736,24 @@ h1{
 .seventh_text{
 	position: relative;
 	top: -230px;
+	margin-right: 0;
 }
 
 .analis{
 	bottom: 350px;
-	width: 438px;
-	height: 292px;
+	width: 538px;
+	height: 342px;
 }
 
 .eight_text{
 	top: -150px;
+	margin-left: 0;
 }
 
 .devices{
 	top: -200px;
-	width: 604px;
-	height: 351px;	
+	width: 654px;
+	height: 401px;	
 }
 
 
@@ -743,6 +785,351 @@ h1{
 	top: 1000px;
 	margin-right: 200px;
 	margin-left: 200px;
+}
+
+.one{
+	margin-left: 20px;
+}
+
+}
+
+
+@media screen and (max-width: 992px){
+
+h1{
+	font-size: 30px;
+	width: 400px;
+}
+
+.menu{
+	font-size: 14px;
+}
+
+.buttons{
+	font-size: 14px;
+}
+
+.contact{
+	padding: 12px 20px 10px 20px;
+}
+
+.demo{
+	padding: 10px 20px 10px 20px;
+}
+
+h2{
+	font-size: 30px;
+}
+
+.text{
+	font-size: 14px;
+	width: 400px;
+	line-height: 165%;
+}
+
+.tx{
+	position: relative;
+	height: 450px;
+	margin-right: 00px;
+	bottom: 40px;
+}
+
+.display{
+	margin-left: 0px;
+	margin-right: 50px;
+	width: 500px;
+	height: 350px;
+}
+
+.contact2{
+	padding: 10px 5px 10px 5px;
+	font-size: 14px;
+	margin-top: 30px;
+}
+
+.rect{
+	width:300px;
+	height:450px;
+}
+
+h3{
+	font-size: 30px;
+}
+
+.blocks{
+	font-size: 14px;
+	line-height: 165%;
+}
+
+.img1{
+	width: 60px;
+	height: 150px;
+}
+
+.img_contact{
+	width: 190px;
+	height: 70px;
+	left: 0px;
+}
+
+.create_text{
+	margin-top: 10px; 
+}
+
+.img2{
+	height: 150px;
+	left: 10px;
+}
+
+.img_mac{
+	width: 170px;
+	height: 100px;
+	bottom: 40px;
+}
+
+.img3{
+	height: 150px;
+}
+
+.img_home{
+	width: 170px;
+}
+
+.three{
+	margin-right: -20px;
+	margin-left: 10px; 
+}
+
+.backgr2{
+	top: 180px;
+}
+
+.fourth_block{
+	top: 250px;
+}
+
+.ipad{
+	width: 400px;
+	height: 250px;
+	top: -50px;
+}
+
+.fourth_text{
+	top: 0px;
+	font-size: 24px;
+}
+
+.fourth_tx{
+	font-size: 14px;
+	line-height: 165%; 
+}
+
+.fifth{
+	top: 350px;
+}
+
+.fifth_strong{
+	font-size: 24px;
+	line-height: 120%;
+
+}
+
+.fifth_tx{
+	font-size: 14px;
+	line-height: 165%;
+}
+
+.showcase{
+	width: 350px;
+	height: 250px;
+	top: -50px;
+}
+
+.sixth{
+	top: 400px;
+}
+
+.sixth_strong{
+	font-size: 24px;
+}
+
+.sixth_tx{
+	font-size: 14px;
+	line-height: 165%;
+}
+
+.data{
+	width: 400px;
+	height: 300px;
+}
+
+.seventh{
+	top: 700px;
+}
+
+
+.seventh_text{
+	margin-left: 40px;
+	top: -200px;
+}
+
+.seventh_tx{
+	font-size: 14px;
+	line-height: 165%;
+}
+
+.seventh_strong{
+	font-size: 24px;
+}
+
+.analis{
+	width: 400px;
+	height: 250px;
+	top: -280px;
+	margin-right: 30px;
+}
+
+.seventh_back{
+	height: 620px;
+	top: -210px;
+}
+
+.eight{
+	top: 750px;
+}
+
+.eight_text{
+	margin-right: 50px;
+	margin-left: 40px;
+}
+
+.eight_tx{
+	font-size: 14px;
+	line-height: 165%;
+}
+
+.eight_strong{
+	font-size: 24px;
+}
+
+.devices{
+	width: 450px;
+	height: 300px;
+	margin-left: 30px;
+}
+
+.final{
+	top: 550px;
+}
+
+h4{
+	font-size: 30px;
+}
+
+.final_text{
+	font-size: 14px;
+}
+
+.square{
+	width: 400px; 
+	height: 400px;
+}
+.teams{
+	top: 600px;
+}
+
+.bl{
+	width: 250px;
+	font-size: 14px;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.img_carlson{
+	width: 160px;
+	height: 100px;
+}
+
+.img_mazars{
+	width: 170px;
+}
+
+.img_hotels{
+	width: 170px;
+}
+
+.carlson_text, .mazars_text{
+	margin-top: -30px;
+}
+
+.hotels_tx{
+	margin-bottom: 35px;
+}
+
+.hotels_text{
+ 	margin-top: -25px;
+}
+
+.another{
+	top: 700px;
+}
+
+.tegs{
+	top: 800px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.tegs1, .tegs2{
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.info{
+	position: relative;
+	bottom: 400px;
+}
+
+.map{
+	height: 350px;
+}
+
+.inf{
+	top: -50px;
+	width: 350px;
+	height: 480px;
+}
+
+h5{
+	font-size: 24px;
+	margin-top: 60px;
+}
+
+.t, .info_text{
+	font-size: 14px;
+}
+
+.type{
+	padding-bottom: 40px;
+}
+
+.send_bot{
+	padding: 8px;
+	padding-left: 12px;
+	margin-left: 209px;
+	margin-right: 44px;
+	margin-bottom: 20px;
+}
+
+.cont{
+	top: 700px;
+	margin-bottom: 100px;
+	margin-right: 40px;
+	margin-left: 40px; 
+}
+
+.i{
+	width: 35px;
 }
 
 }
